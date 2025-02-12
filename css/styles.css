@@ -1,7 +1,7 @@
 /*------base----------*/
 html{
     box-sizing: border-box;
-    font-size: 62.55;
+    font-size: 62.55%;
 }
 *,*::before,*:after{
     box-sizing: inherit;
@@ -16,10 +16,30 @@ a{
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    
 }
 
 header{
     background-color: #34495E;
+}
+
+.guillemets{
+    display: flex;
+
+    width: 1100px;
+    height: 230px;
+}
+
+.insécable {
+    display: flex;
+}
+
+.windows {
+    display: flex;
+}
+
+.line-heigt {
+    display: flex;
 }
 
 
@@ -32,19 +52,50 @@ h1{
 h2 {
     font-family: "Lato", serif;
     font-weight: 100;
+    font-size: 4.8rem;
+    display: flex;
+    
 }
 
 h3 {
     font-family: "Quicksand", serif;
+    font-size: 3.6rem;
+}
+
+.cerclegauche{
+    color: #D35400;
+    font-size: 3.0rem;
+    width: 210px;
+    height: 210px;
+    border: 5px solid #D35400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.cercledroite {
+    color: #D35400;
+    font-size: 3.0rem;
+    width: 210px;
+    height: 210px;
+    border: 5px solid #D35400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
 }
 
 h4 {
     font-family: "Roboto", serif;
+    font-size: 2.0rem;
 }
 
 p {
     font-family: "Roboto", serif; 
+    font-size: 2.0rem;
 }
+
 
 footer{
     background-color: #2980B9;
