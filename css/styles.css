@@ -14,39 +14,45 @@ a{
 .wrapper{
     max-width: 1100px;
     margin: 0 auto;
-    display: flex;
     justify-content: center;
     
 }
 
+
+
 header{
     background-color: #34495E;
 }
-
-.guillemets{
-    display: flex;
-
-    width: 1100px;
-    height: 230px;
-}
-
-.insécable {
+header .wrapper {
     display: flex;
 }
 
-.windows {
+.gauche{
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 50%;
+
 }
 
-.line-heigt {
-    display: flex;
+.regles article :hover{
+background-color: #BDC3C7;
+
 }
+
+.droite {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 
 
 h1{
     font-family: "Roboto", serif;
     color: white;
     font-size: 9.6rem;
+    letter-spacing: 32px;
 }
 
 h2 {
@@ -65,6 +71,7 @@ h3 {
 .cerclegauche{
     color: #D35400;
     font-size: 3.0rem;
+    margin-right: 50px;
     width: 210px;
     height: 210px;
     border: 5px solid #D35400;
@@ -73,9 +80,13 @@ h3 {
     align-items: center;
     border-radius: 100%;
 }
+.center {
+    display: flex;
 
+}
 .cercledroite {
     color: #D35400;
+    margin-left: 50px;
     font-size: 3.0rem;
     width: 210px;
     height: 210px;
@@ -97,6 +108,22 @@ p {
 }
 
 
+.info .wrapper{
+    display: flex;
+    
+}
+.a1 {
+    flex: 50%;
+    margin-right: 32px;
+}
+.a2 {
+    flex: 50%;
+    margin-right: 32px;
+}
 footer{
     background-color: #2980B9;
+}
+footer .wrapper {
+    display: flex;
+    justify-content:space-between;
 }
